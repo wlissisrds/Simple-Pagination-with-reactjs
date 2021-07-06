@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+
+    width: 20%;
+}
+
+li {
+    text-align: center;
+    padding: 6px;
+    margin: 8px 0 8px;
+    background: rgb(200, 54, 245);
+    border-radius: 6px;
+}
+
+.buttons button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 4px;
+
+    background: rgb(31, 207, 230);
+    margin: 4px;
+    
+}
